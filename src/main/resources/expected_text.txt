@@ -1,0 +1,30 @@
+handlers=java.util.logging.FileHandler, java.util.logging.ConsoleHandler
+
+.level= INFO
+
+SEVER
+
+util.logging.FileHandler.level=ALL
+
+#java.util.logging.FileHandler.pattern=myapp.log
+
+BEYER
+java.
+BEYER
+java.
+
+java.
+)მVმ.
+
+util.logging.FileHandler.pattern=myapp_%u_%g.log
+util.logging.FileHandler.limit=1000000
+util.logging.FileHandler.count=3
+
+util.logging.FileHandler. formatter = java.util.logging.XMLFormatter
+
+util.logging.ConsoleHandler.level = INFO
+util.logging.ConsoleHandler. formatter = java.util.logging.SimpleFormatter
+
+java.util.logging.SimpleFormatter.format=%4$s: %5$s [%1$tcl%n
+
+MyClass.level = SEVERE
